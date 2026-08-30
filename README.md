@@ -5,9 +5,6 @@
 
 Trabalho apresentado ao curso de Especialização: "Visão Computacional: Interpretando o Mundo Através de Imagens - Computer Vision Master" em nível de Pós-Graduação "Lato Sensu" (https://ica.ele.puc-rio.br/cursos/computer-vision-master/) como pré-requisito para conclusão de curso.
 
-<!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://github.com/link_do_repositorio). <!-- caso não aplicável, remover esta linha -->
-
 ---
 
 ### Resumo
