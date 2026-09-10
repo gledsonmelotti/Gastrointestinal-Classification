@@ -43,6 +43,10 @@ Este projeto tem como finalidade aperfeiçoar os resultados individuais obtidos 
 
 Na abordagem *Intermediate Fusion*, as imagens do *dataset* de treino passam pelas redes neurais para extração de características e, posteriormente, as características são concatenadas e processadas por uma outra rede neural, que gera os escores preditivos da classificação final [20-22], conforme a Figura 1.
 
+<img src="images/Figure_1.jpeg" alt="Figura 1 - Estratégia Intermediate Fusion" width="500">
+
+**Figura 1:** Representação da estratégia *intermediate fusion*, a usar a mesma imagem do gastrointestinal [19] como entrada para cada modelo de *Deep Learning*, com a finalidade de extrair características. Tais características são concatenadas e inseridas em uma nova rede neural.
+
 ![Figura 1: Representação da estratégia intermediate fusion, a usar a mesma imagem do gastrointestinal [19] como entrada para cada modelo de Deep Learning, com a finalidade de extrair características. Tais características são concatenadas e inseridas em uma nova rede neural.
 ](images/Figure_1.jpeg)
 
