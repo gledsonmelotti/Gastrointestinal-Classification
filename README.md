@@ -117,7 +117,6 @@ No contexto da presente pesquisa, algoritmos de redes neurais podem contribuir p
 | Precisão Média (Área sob a Curva Precisão-Revocação) | 0.9485 | 0.9519 | 0.9180 | 0.9608 | 0.9838 | 0.9549 | 0.9655 |
 | Limiar da Curva Precisão-Revocação | 0.0668 | 0.3418 | 0.7495 | 0.2114 | 0.5615 | 0.5664 | 0.2267 |
 
-
 ### 4.2 Estratégia *Late Fusion*
 
 **Tabela 3:** Métricas de classificação para a classe *lesion*.
@@ -163,6 +162,20 @@ No contexto da presente pesquisa, algoritmos de redes neurais podem contribuir p
 | Limiar da Curva ROC | 0.9307 | 0.7671 | 0.3159 | 0.3914 | 0.8740 | 0.5383 | 0.5451 |
 | Precisão Média (Área sob a Curva Precisão-Revocação) | 0.9581 | 0.9530 | 0.9668 | 0.9566 | 0.9785 | 0.9718 | 0.9701 |
 | Limiar da Curva Precisão-Revocação | 0.7114 | 0.3462 | 0.0562 | 0.3914 | 0.5003 | 0.5239 | 0.3931 |
+
+## Conclusões
+
+A implementação de modelos avançados de inteligência artificial, que integram diversas formulações matemáticas, proporcionaram diagnósticos mais precisos e confiáveis, conforme pode ser analisado por meio das métricas de classificações, principalmente com relação à sensibilidade e as áreas das curvas Característica de Operação do Receptor e Precisão-Sensibilidade, reduzindo em algumas estratégias a incidência de falsos positivos e falsos negativos, o que é crucial para tratamentos médicos eficazes e adequados.
+
+Além da validação dos resultados por meio das métricas, não se pode deixar de evidenciar que os modelos utilizados foram rigorosamente testados e validados em conjuntos de dados reais, garantindo sua aplicabilidade e robustez em cenários clínicos reais. 
+
+A validação e a comprovação da eficácia das soluções baseadas em IA devem promover maior aceitação e confiança por parte dos profissionais da área da saúde, fortalecendo a confiança em inteligência artificial. Entretanto, as arquiteturas de redes neurais atuam como suporte complementar aos médicos, contribuindo para decisões clínicas mais precisas e reduzindo a sobrecarga em locais com escassez de profissionais especializados em doenças do gastrointestinal. Como consequência, os pacientes se beneficiam com diagnósticos mais rápidos e assertivos, o que pode resultar em tratamentos mais eficazes e personalizados. Além disso, o aumento da precisão tende a reduzir despesas decorrentes de tratamentos ineficazes ou desnecessários, além de evitar hospitalizações prolongadas.
+
+Com os resultados obtidos é possível demonstrar não apenas os avanços significativos das arquiteturas de redes neurais empregadas, mas também na possível otimização da qualidade assistencial e nos desfechos clínicos dos pacientes.
+
+## Referências
+
+
 
 ---
 
