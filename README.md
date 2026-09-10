@@ -58,7 +58,7 @@ Diferentemente da estratégia *intermediate fusion*, a estratégia *late fusion*
 
 Matematicamente, tais combinações dos escores podem ser definidas como o valor médio, máximo, mínimo e produto normalizado (ProNor) dos modelos de *deep learning*, conforme as equações (1), (2), (3) e (4) respectivamente [30-33]:
 
-![Equação 1 - Média](images/equacao1_media_branca.png)
+![Equação 1 - Média](img src="images/equacao1_media_branca.png" alt="Equação 1" width="300")
 
 ![Equação 2 - Máximo](images/equacao2_maximo_branca.png)
 
