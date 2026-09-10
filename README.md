@@ -181,8 +181,6 @@ Com os resultados obtidos é possível demonstrar não apenas os avanços signif
 
 ## Referências
 
-## Referências
-
 <a id="ref-1"></a>[1] C. Xia et al., "Effect of an Endoscopy Screening on Upper Gastrointestinal Cancer Mortality: A Community-Based Multicenter Cluster Randomized Clinical Trial," *Gastroenterology*, vol. 168, no. 4, pp. 725–740, 2025.
 
 <a id="ref-2"></a>[2] F. Abushamat et al., "Traction-Assisted Endoscopic Submucosal Dissection of Colonic Lesions: A North American Experience," *Techniques and Innovations in Gastrointestinal Endoscopy*, vol. 27, no. 1, art. no. 250901, 2025.
