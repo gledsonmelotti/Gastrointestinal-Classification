@@ -8,7 +8,7 @@ Trabalho apresentado ao curso de Especialização: "Visão Computacional: Interp
 - [Link para o código: redes neurais indviduais](Individual_Result).
 - [Link para o código: *late fusion* com dois modelos](Late_Fusion_2_Model_result).
 - [Link para o código: *late fusion* com três modelos](Late_Fusion_3_Model_result).
-- [Link para o código: *Intermediate fusion* com três modelos](Intermediate_Fusion_Result).
+- [Link para o código: *Intermediate fusion*](Intermediate_Fusion_Result).
 - [Link para o código: Trabalho e PDF](PDF-project).
 
 ---
