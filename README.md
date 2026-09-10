@@ -21,7 +21,7 @@ O reconhecimento automatizado de trato gastrointestinal a partir de imagens endo
 
 Automated recognition of the gastrointestinal tract from endoscopic images has become a promising area with the advancement of artificial intelligence (AI) algorithms, as artificial neural networks are algorithms that have shown satisfactory results in distinguishing between images with and without lesions or diseases in the gastrointestinal tract, identifying complex visual patterns that are sometimes not recognized by traditional medical perception. The applications of these techniques have contributed to faster, more standardized, and more reliable diagnoses, especially in clinical contexts with high demand or a shortage of specialists. Thus, the use of AI in the classification of gastrointestinal images represents an important advance for the early diagnosis and improved prognosis of diseases of the digestive tract. In other words, the results of such algorithms facilitate medical interventions for specific treatment. Therefore, with the aim of contributing to the improvement of gastrointestinal image classification results, this work proposed fusion strategies to improve the individual results of artificial intelligence algorithms. The results were evaluated using the metrics accuracy, sensitivity, specificity, precision, false positive rate, F-score, Matthews correlation coefficient, Kappa, and the areas under the Receiver Operating Characteristic and Precision-Recall curves.
 
-## 1.0 Introdução e Justificativa
+## 1. Introdução e Justificativa
 
 O estilo de vida moderno e hábitos alimentares inadequados têm contribuído para o aumento das infecções e doenças gastrointestinais. Úlceras, pólipos, inflamações, cânceres no esôfago, estômago e cólon representam uma parcela significativa dos novos diagnósticos e mortes anuais, frequentemente associados a condições como úlceras, sangramentos e pólipos. A detecção precoce dessas infecções e doenças é possível com observações de especialistas, mas pequenos tratos costumam passar despercebidos em exames iniciais, muitas vezes devido às limitações dos métodos endoscópicos tradicionais e erros humanos [1-3].
 
@@ -29,7 +29,7 @@ Com o avanço da inteligência artificial (IA), os algoritmos de aprendizado de 
 
 Além de aumentar a confiabilidade dos diagnósticos, as técnicas de inteligência artificial permitem o desenvolvimento de sistemas assistivos que podem auxiliar profissionais da saúde durante procedimentos clínicos ou triagens em ambientes com escassez de especialistas, bem como reduzir o tempo de análise das imagens gastrointestinais e contribuindo para o reconhecimento precoce de doenças gastrointestinais e, consequentemente, para melhores prognósticos e planos terapêuticos [7-18].
 
-## 2.0 Objetivos
+## 2. Objetivos
 
 ### 2.1  Objetivo geral
 
@@ -70,8 +70,6 @@ Matematicamente, tais combinações dos escores podem ser definidas como o valor
 <img src="images/equacao3_minimo_branca.png" alt="Equação 3 - Mínimo" width="260">
 
 <img src="images/equacao4_pronor_branca.png" alt="Equação 4 - ProNor" width="320">
-
-## 4.0 Resultados e Discussões
 
 ## 4. Resultados e Discussões
 
@@ -169,7 +167,7 @@ No contexto da presente pesquisa, algoritmos de redes neurais podem contribuir p
 | Precisão Média (Área sob a Curva Precisão-Revocação) | 0.9581 | 0.9530 | 0.9668 | 0.9566 | 0.9785 | 0.9718 | 0.9701 |
 | Limiar da Curva Precisão-Revocação | 0.7114 | 0.3462 | 0.0562 | 0.3914 | 0.5003 | 0.5239 | 0.3931 |
 
-## Conclusões
+## 5. Conclusões
 
 A implementação de modelos avançados de inteligência artificial, que integram diversas formulações matemáticas, proporcionaram diagnósticos mais precisos e confiáveis, conforme pode ser analisado por meio das métricas de classificações, principalmente com relação à sensibilidade e as áreas das curvas Característica de Operação do Receptor e Precisão-Sensibilidade, reduzindo em algumas estratégias a incidência de falsos positivos e falsos negativos, o que é crucial para tratamentos médicos eficazes e adequados.
 
