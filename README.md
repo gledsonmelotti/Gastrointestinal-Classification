@@ -51,9 +51,7 @@ Na abordagem *Intermediate Fusion*, as imagens do *dataset* de treino passam pel
 
 Diferentemente da estratégia *intermediate fusion*, a estratégia *late fusion* é a combinação dos resultados de predições com o *dataset* de teste das classificadores individuais já treinados com o *dataset* de treino [23-26].
 
-<img src="images/Figure_1.jpeg" alt="Figura 2 - Estratégia *Late Fusion*" width="700">
-
-![Figura 2: Representação da estratégia late fusion, a usar a usar a mesma imagem do gastrointestinal [19] como entrada para cada modelo de Deep Learning, que fornecem os escores preditos das classificações individuais. Tais escores são agrupados por alguma estratégia de fusão posterior.](images/Figure_2.jpeg)
+<img src="images/Figure_2.jpeg" alt="Figura 2 - Estratégia *Late Fusion*" width="700">
 
 **Figura 2:** Representação da estratégia *late fusion*, a usar uma mesma imagem do *dataset* gastrointestinal [19] como entrada para cada modelo de *Deep Learning*, que fornecem os escores preditos das classificações individuais. Tais escores são agrupados por alguma estratégia de fusão tardia.
 
