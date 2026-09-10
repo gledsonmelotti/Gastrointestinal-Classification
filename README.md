@@ -64,7 +64,7 @@ Matematicamente, tais combinações dos escores podem ser definidas como o valor
 
 <img src="images/equacao3_minimo_branca.png" alt="Equação 3 - Mínimo" width="260">
 
-<img src="images/equacao4_pronor_branca.png" alt="Equação 4 - ProNor" width="260">
+<img src="images/equacao4_pronor_branca.png" alt="Equação 4 - ProNor" width="270">
 
 ---
 
