@@ -43,7 +43,8 @@ Este projeto tem como finalidade aperfeiçoar os resultados individuais obtidos 
 
 Na abordagem *Intermediate Fusion*, as imagens do *dataset* de treino passam pelas redes neurais para extração de características e, posteriormente, as características são concatenadas e processadas por uma outra rede neural, que gera os escores preditivos da classificação final [20-22], conforme a Figura 1.
 
-![Figura 1: Representação da estratégia Intermediate Fusion](caminho/para/figura1.png)
+![Figura 1: Representação da estratégia intermediate fusion, a usar a mesma imagem do gastrointestinal [19] como entrada para cada modelo de Deep Learning, com a finalidade de extrair características. Tais características são concatenadas e inseridas em uma nova rede neural.
+](caminho/para/figura1.png)
 
 **Figura 1:** Representação da estratégia *Intermediate Fusion*, a usar uma imagem do *dataset* gastrointestinal [19] como entrada para cada modelo de *Deep Learning*, com a finalidade de extrair características. Tais características são concatenadas e inseridas em uma nova rede neural.
 
@@ -51,7 +52,7 @@ Na abordagem *Intermediate Fusion*, as imagens do *dataset* de treino passam pel
 
 Diferentemente da estratégia *intermediate fusion*, a estratégia *late fusion* é a combinação dos resultados de predições com o *dataset* de teste das classificadores individuais já treinados com o *dataset* de treino [23-26].
 
-![Figura 2: Representação da estratégia Late Fusion](caminho/para/figura2.png)
+![Figura 2: Representação da estratégia late fusion, a usar a usar a mesma imagem do gastrointestinal [19] como entrada para cada modelo de Deep Learning, que fornecem os escores preditos das classificações individuais. Tais escores são agrupados por alguma estratégia de fusão posterior.](caminho/para/figura2.png)
 
 **Figura 2:** Representação da estratégia *late fusion*, a usar uma mesma imagem do *dataset* gastrointestinal [19] como entrada para cada modelo de *Deep Learning*, que fornecem os escores preditos das classificações individuais. Tais escores são agrupados por alguma estratégia de fusão tardia.
 
