@@ -68,7 +68,9 @@ Matematicamente, tais combinações dos escores podem ser definidas como o valor
 
 ## 4.0 Resultados e Discussões
 
+## 4. Resultados e Discussões
 
+No contexto da presente pesquisa, algoritmos de redes neurais podem contribuir para a predição de doenças do trato gastrointestinal. No entanto, deve-se buscar qual arquitetura de redes neurais que mais se adapta no contexto do problema. Diante disso, o principal objetivo da pesquisa foi avaliar e comparar o desempenho de três diferentes arquiteturas para obter os resultados das classificações. Tal comparação foi realizada por meio de diferentes métricas de classificação em reconhecimento de padrões, como acurácia, sensibilidade ou do inglês *recall*, também definido como *True Positive Rate* - TPR, especificidade, precisão, taxa de falsos positivos (do inglês *False Positive Rate* - FPR), F-escore, coeficiente de correlação de Matthews e coeficiente Kappa, as áreas sob as curvas (do inglês *Area Under the Curve* – AUC) de Precisão-Sensibilidade (do inglês *Precision-Recall* – PR), com *Threshold* otimizado pelo F1-score máximo e Característica de Operação do Receptor (do inglês *Receiver Operating Characteristic* – ROC), com *Threshold* otimizado pelo índice de Youden. Tais métricas têm a finalidade de auxiliar no diagnóstico médico das doenças que surgem no gastrointestinal.
 
 ### 4.1 Estratégia *Intermediate Fusion*
 
