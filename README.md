@@ -66,6 +66,103 @@ Matematicamente, tais combinações dos escores podem ser definidas como o valor
 
 <img src="images/equacao4_pronor_branca.png" alt="Equação 4 - ProNor" width="320">
 
+## 4.0 Resultados e Discussões
+
+
+
+### 4.1 Estratégia *Intermediate Fusion*
+
+**Tabela 1:** Métricas de classificação para a classe *lesion*.
+
+| Métrica | DINOv2 Fine-tuning | ConvNeXtV2-L Fine-tuning | EfficientNetV2-M Fine-tuning | Fusão ConvNeXtV2-L + DinoV2 | Fusão ConvNeXtV2-L + EfficientNetV2-M | Fusão DinoV2 + EfficientNetV2-M | Fusão ConvNeXtV2-L + DinoV2 + EfficientNetV2-M |
+|---|---|---|---|---|---|---|---|
+| TP | 19 | 19 | 17 | 19 | 19 | 19 | 19 |
+| FP | 4 | 3 | 0 | 2 | 0 | 2 | 1 |
+| FN | 3 | 3 | 5 | 3 | 3 | 3 | 3 |
+| TN | 18 | 19 | 22 | 20 | 22 | 20 | 21 |
+| Acurácia | 0.8409 | 0.8636 | 0.8864 | 0.8864 | 0.9318 | 0.8864 | 0.9091 |
+| Sensibilidade (*Recall*) | 0.8636 | 0.8636 | 0.7727 | 0.8636 | 0.8636 | 0.8636 | 0.8636 |
+| Especificidade | 0.8182 | 0.8636 | 1.0000 | 0.9091 | 1.0000 | 0.9091 | 0.9545 |
+| Precisão | 0.8261 | 0.8636 | 1.0000 | 0.9048 | 1.0000 | 0.9048 | 0.9500 |
+| Taxa de Falsos Positivos | 0.1818 | 0.1364 | 0.0000 | 0.0909 | 0.0000 | 0.0909 | 0.0455 |
+| Escore F1 | 0.8444 | 0.8636 | 0.8718 | 0.8837 | 0.9268 | 0.8837 | 0.9048 |
+| Coeficiente de Correlação de Matthews | 0.6825 | 0.7273 | 0.7935 | 0.7735 | 0.8718 | 0.7735 | 0.8216 |
+| Coeficiente Kappa | 0.6818 | 0.7273 | 0.7727 | 0.7727 | 0.8636 | 0.7727 | 0.8182 |
+| Área sob a curva - ROC | 0.9483 | 0.9483 | 0.9514 | 0.9607 | 0.9835 | 0.9525 | 0.9649 |
+| Limiar da Curva ROC | 0.9307 | 0.7671 | 0.3159 | 0.8359 | 0.4849 | 0.5459 | 0.8804 |
+| Precisão Média (Área sob a Curva Precisão-Revocação) | 0.9581 | 0.9530 | 0.9668 | 0.9678 | 0.9857 | 0.9586 | 0.9704 |
+| Limiar da Curva Precisão-Revocação | 0.7114 | 0.3462 | 0.0562 | 0.6147 | 0.4849 | 0.5459 | 0.5947 |
+
+<br>
+
+**Tabela 2:** Métricas de classificação para a classe *normal*.
+
+| Métrica | DINOv2 Fine-tuning | ConvNeXtV2-L Fine-tuning | EfficientNetV2-M Fine-tuning | Fusão ConvNeXtV2-L + DinoV2 | Fusão ConvNeXtV2-L + EfficientNetV2-M | Fusão DinoV2 + EfficientNetV2-M | Fusão ConvNeXtV2-L + DinoV2 + EfficientNetV2-M |
+|---|---|---|---|---|---|---|---|
+| TP | 18 | 19 | 22 | 20 | 22 | 20 | 21 |
+| FP | 3 | 3 | 5 | 3 | 3 | 3 | 3 |
+| FN | 4 | 3 | 0 | 2 | 0 | 2 | 1 |
+| TN | 19 | 19 | 17 | 19 | 19 | 19 | 19 |
+| Acurácia | 0.8409 | 0.8636 | 0.8864 | 0.8864 | 0.9318 | 0.8864 | 0.9091 |
+| Sensibilidade (*Recall*) | 0.8182 | 0.8636 | 1.0000 | 0.9091 | 1.0000 | 0.9091 | 0.9545 |
+| Especificidade | 0.8636 | 0.8636 | 0.7727 | 0.8636 | 0.8636 | 0.8636 | 0.8636 |
+| Precisão | 0.8571 | 0.8636 | 0.8148 | 0.8696 | 0.8800 | 0.8696 | 0.8750 |
+| Taxa de Falsos Positivos | 0.1364 | 0.1364 | 0.2273 | 0.1364 | 0.1364 | 0.1364 | 0.1364 |
+| Escore F1 | 0.8372 | 0.8636 | 0.8980 | 0.8889 | 0.9362 | 0.8889 | 0.9130 |
+| Coeficiente de Correlação de Matthews | 0.6825 | 0.7273 | 0.7935 | 0.7735 | 0.8718 | 0.7735 | 0.8216 |
+| Coeficiente Kappa | 0.6818 | 0.7273 | 0.7727 | 0.7727 | 0.8636 | 0.7727 | 0.8182 |
+| Área sob a curva - ROC | 0.9483 | 0.9483 | 0.9514 | 0.9607 | 0.9835 | 0.9525 | 0.9649 |
+| Limiar da Curva ROC | 0.4409 | 0.8867 | 0.9619 | 0.4570 | 0.5615 | 0.5664 | 0.5386 |
+| Precisão Média (Área sob a Curva Precisão-Revocação) | 0.9485 | 0.9519 | 0.9180 | 0.9608 | 0.9838 | 0.9549 | 0.9655 |
+| Limiar da Curva Precisão-Revocação | 0.0668 | 0.3418 | 0.7495 | 0.2114 | 0.5615 | 0.5664 | 0.2267 |
+
+
+### 4.2 Estratégia *Late Fusion*
+
+**Tabela 3:** Métricas de classificação para a classe *lesion*.
+
+| Métrica | DINOv2 Fine-tuning | ConvNeXtV2-L Fine-tuning | EfficientNetV2-M Fine-tuning | Fusão ConvNeXtV2-L + DinoV2 | Fusão ConvNeXtV2-L + EfficientNetV2-M | Fusão DinoV2 + EfficientNetV2-M | Fusão ConvNeXtV2-L + DinoV2 + EfficientNetV2-M |
+|---|---|---|---|---|---|---|---|
+| TP | 19 | 19 | 17 | 19 | 18 | 18 | 20 |
+| FP | 4 | 3 | 0 | 4 | 0 | 0 | 1 |
+| FN | 3 | 3 | 5 | 3 | 4 | 4 | 2 |
+| TN | 18 | 19 | 22 | 18 | 22 | 22 | 21 |
+| Acurácia | 0.8409 | 0.8636 | 0.8864 | 0.8409 | 0.9091 | 0.9091 | 0.9318 |
+| Sensibilidade (*Recall*) | 0.8636 | 0.8636 | 0.7727 | 0.8636 | 0.8182 | 0.8182 | 0.9091 |
+| Especificidade | 0.8182 | 0.8636 | 1.0000 | 0.8182 | 1.0000 | 1.0000 | 0.9545 |
+| Precisão | 0.8261 | 0.8636 | 1.0000 | 0.8261 | 1.0000 | 1.0000 | 0.9524 |
+| Taxa de Falsos Positivos | 0.1818 | 0.1364 | 0.0000 | 0.1818 | 0.0000 | 0.0000 | 0.0455 |
+| Escore F1 | 0.8444 | 0.8636 | 0.8718 | 0.8444 | 0.9000 | 0.9000 | 0.9302 |
+| Coeficiente de Correlação de Matthews | 0.6825 | 0.7273 | 0.7935 | 0.6825 | 0.8321 | 0.8321 | 0.8645 |
+| Coeficiente Kappa | 0.6818 | 0.7273 | 0.7727 | 0.6818 | 0.8182 | 0.8182 | 0.8636 |
+| Área sob a curva - ROC | 0.9483 | 0.9483 | 0.9514 | 0.9566 | 0.9773 | 0.9711 | 0.9711 |
+| Limiar da Curva ROC | 0.9307 | 0.7671 | 0.3159 | 0.6689 | 0.5256 | 0.5054 | 0.6450 |
+| Precisão Média (Área sob a Curva Precisão-Revocação) | 0.9581 | 0.9530 | 0.9668 | 0.9643 | 0.9795 | 0.9751 | 0.9768 |
+| Limiar da Curva Precisão-Revocação | 0.7114 | 0.3462 | 0.0562 | 0.6689 | 0.1609 | 0.4500 | 0.5557 |
+
+<br>
+
+**Tabela 4:** Métricas de classificação para a classe *normal*.
+
+| Métrica | DINOv2 Fine-tuning | ConvNeXtV2-L Fine-tuning | EfficientNetV2-M Fine-tuning | Fusão ConvNeXtV2-L + DinoV2 | Fusão ConvNeXtV2-L + EfficientNetV2-M | Fusão DinoV2 + EfficientNetV2-M | Fusão ConvNeXtV2-L + DinoV2 + EfficientNetV2-M |
+|---|---|---|---|---|---|---|---|
+| TP | 19 | 19 | 17 | 18 | 22 | 22 | 21 |
+| FP | 4 | 3 | 0 | 3 | 4 | 4 | 2 |
+| FN | 3 | 3 | 5 | 4 | 0 | 0 | 1 |
+| TN | 18 | 19 | 22 | 19 | 18 | 18 | 20 |
+| Acurácia | 0.8409 | 0.8636 | 0.8864 | 0.8409 | 0.9091 | 0.9091 | 0.9318 |
+| Sensibilidade (*Recall*) | 0.8636 | 0.8636 | 0.7727 | 0.8182 | 1.0000 | 1.0000 | 0.9545 |
+| Especificidade | 0.8182 | 0.8636 | 1.0000 | 0.8636 | 0.8182 | 0.8182 | 0.9091 |
+| Precisão | 0.8261 | 0.8636 | 1.0000 | 0.8571 | 0.8462 | 0.8462 | 0.9130 |
+| Taxa de Falsos Positivos | 0.1818 | 0.1364 | 0.0000 | 0.1364 | 0.1818 | 0.1818 | 0.0909 |
+| Escore F1 | 0.8444 | 0.8636 | 0.8718 | 0.8372 | 0.9167 | 0.9167 | 0.9333 |
+| Coeficiente de Correlação de Matthews | 0.6825 | 0.7273 | 0.7935 | 0.6825 | 0.8321 | 0.8321 | 0.8645 |
+| Coeficiente Kappa | 0.6818 | 0.7273 | 0.7727 | 0.6818 | 0.8182 | 0.8182 | 0.8636 |
+| Área sob a curva - ROC | 0.9483 | 0.9483 | 0.9514 | 0.9566 | 0.9773 | 0.9711 | 0.9711 |
+| Limiar da Curva ROC | 0.9307 | 0.7671 | 0.3159 | 0.3914 | 0.8740 | 0.5383 | 0.5451 |
+| Precisão Média (Área sob a Curva Precisão-Revocação) | 0.9581 | 0.9530 | 0.9668 | 0.9566 | 0.9785 | 0.9718 | 0.9701 |
+| Limiar da Curva Precisão-Revocação | 0.7114 | 0.3462 | 0.0562 | 0.3914 | 0.5003 | 0.5239 | 0.3931 |
+
 ---
 
 Matrícula: 242.100.269
