@@ -175,6 +175,73 @@ Com os resultados obtidos é possível demonstrar não apenas os avanços signif
 
 ## Referências
 
+## Referências
+
+<a id="ref-1"></a>[1] C. Xia et al., "Effect of an Endoscopy Screening on Upper Gastrointestinal Cancer Mortality: A Community-Based Multicenter Cluster Randomized Clinical Trial," *Gastroenterology*, vol. 168, no. 4, pp. 725–740, 2025.
+
+<a id="ref-2"></a>[2] F. Abushamat et al., "Traction-Assisted Endoscopic Submucosal Dissection of Colonic Lesions: A North American Experience," *Techniques and Innovations in Gastrointestinal Endoscopy*, vol. 27, no. 1, art. no. 250901, 2025.
+
+<a id="ref-3"></a>[3] N. M. McDonald et al., "Practice Patterns of Endoscopists Performing Endoscopic Gallbladder Drainage," *Techniques and Innovations in Gastrointestinal Endoscopy*, vol. 25, no. 3, pp. 221–227, 2023.
+
+<a id="ref-4"></a>[4] G. James, D. Witten, T. Hastie, and R. Tibshirani, *An Introduction to Statistical Learning: With Applications in R*. New York: Springer, 2013.
+
+<a id="ref-5"></a>[5] I. Goodfellow, Y. Bengio, and A. Courville, *Deep Learning*. Cambridge, MA: MIT Press, 2016.
+
+<a id="ref-6"></a>[6] C. M. Bishop, *Pattern Recognition and Machine Learning*. New York: Springer, 2006.
+
+<a id="ref-7"></a>[7] A. Divekar, A. Sonwane, A. Swami, and S. Bhagwat, "Detection of Gastrointestinal Bleeding in WCE Images Using YOLOv5," in *Intelligent Systems (ICMIB 2024)*, S. Kumar Udgata, S. Sethi, G. Ghinea, and S. K. Kuanar, Eds., Lecture Notes in Networks and Systems, vol. 1149. Singapore: Springer, 2024.
+
+<a id="ref-8"></a>[8] X. Jia and M. Q.-H. Meng, "Gastrointestinal Bleeding Detection in Wireless Capsule Endoscopy Images Using Handcrafted and CNN Features," in *Proc. 39th Annu. Int. Conf. IEEE Engineering in Medicine and Biology Society (EMBC)*, Jeju, South Korea, 2017, pp. 3154–3157.
+
+<a id="ref-9"></a>[9] A. J. Breitkopf, R. Arun, and R. Jeya, "Exploring Emerging Technologies for Gastrointestinal Cancer Diagnosis," in *Proc. Int. Conf. Advances in Computing, Communication and Applied Informatics (ACCAI)*, Chennai, India, 2024, pp. 1–6.
+
+<a id="ref-10"></a>[10] R. M. Patil and S. Giripunje, "Deep Learning-Based Detection and Classification of Gastrointestinal Tract Diseases in Endoscopy Images," in *Proc. 2nd DMIHER Int. Conf. Artificial Intelligence in Healthcare, Education and Industry (IDICAIEI)*, Wardha, India, 2024, pp. 1–6.
+
+<a id="ref-11"></a>[11] Y. Li et al., "Detection of Exhaled Methane in Gastrointestinal Disease Population Based on TDLAS," *IEEE Sensors Journal*, vol. 24, no. 19, pp. 31095–31103, 2024.
+
+<a id="ref-12"></a>[12] R. Uma, G. K., S. P., and M. K. M., "A Deep Learning Based Detection and Classification of Gastrointestinal Diseases," in *Proc. 6th Int. Conf. Electrical, Control and Instrumentation Engineering (ICECIE)*, Pattaya, Thailand, 2024, pp. 1–7.
+
+<a id="ref-13"></a>[13] K. Pogorelov et al., "KVASIR: A Multi-Class Image Dataset for Computer Aided Gastrointestinal Disease Detection," in *Proc. 8th ACM Multimedia Systems Conf. (MMSYS)*, Taipei, Taiwan, 2017, pp. 164–169.
+
+<a id="ref-14"></a>[14] A. F. Peery et al., "Burden and Cost of Gastrointestinal, Liver, and Pancreatic Diseases in the United States: Update 2024," *Gastroenterology*, vol. 168, no. 5, pp. 1000–1024, May 2025.
+
+<a id="ref-15"></a>[15] A. Peery et al., "Burden and Cost of Gastrointestinal, Liver, and Pancreatic Diseases in the United States: Update 2021," *Gastroenterology*, vol. 162, pp. 621–644, 2021.
+
+<a id="ref-16"></a>[16] A. Turcu-Știolică, M. Dimitrova, and M. Jinga, "Editorial: Advances in the Potential Treatments of Gastrointestinal and Liver Diseases: Addressing the Public Health Burden," *Frontiers in Pharmacology*, vol. 14, 2023.
+
+<a id="ref-17"></a>[17] Z. Bai, H. Wang, C. Shen, J. An, Z. Yang, and X.-M. Mo, "The Global, Regional, and National Patterns of Change in the Burden of Nonmalignant Upper Gastrointestinal Diseases from 1990 to 2019 and the Forecast for the Next Decade," *International Journal of Surgery (London, England)*, vol. 111, pp. 80–92, 2024.
+
+<a id="ref-18"></a>[18] L. Mo, Z. Liu, W. Cao, H. Gong, J. Wu, M. Lin, and W. Pan, "Global, Regional, and National Burden of Gastroesophageal Reflux Disease (1990–2021): Age-Period-Cohort Analysis and Bayesian Projections," *Frontiers in Public Health*, vol. 13, 2025.
+
+<a id="ref-19"></a>[19] A. Khan and H. Malik, "Gastrointestinal Bleeding WCE Images Dataset," *Mendeley Data*, V1, 2023.
+
+<a id="ref-20"></a>[20] A. Pareek, S. Seyyedi, I. Banerjee, and M. Lungren, "Fusion of Medical Imaging and Electronic Health Records Using Deep Learning: A Systematic Review and Implementation Guidelines," *NPJ Digital Medicine*, vol. 3, 2020.
+
+<a id="ref-21"></a>[21] S. Stahlschmidt, B. Ulfenborg, and J. Synnergren, "Multimodal Deep Learning for Biomedical Data Fusion: A Review," *Briefings in Bioinformatics*, vol. 23, 2022.
+
+<a id="ref-22"></a>[22] F. Zhao, C. Zhang, and B. Geng, "Deep Multimodal Data Fusion," *ACM Computing Surveys*, vol. 56, pp. 1–36, 2024.
+
+<a id="ref-23"></a>[23] E. Morvant, A. Habrard, and S. Ayache, "Majority Vote of Diverse Classifiers for Late Fusion," in *Structural, Syntactic, and Statistical Pattern Recognition*. Berlin, Heidelberg: Springer, 2014, pp. 153–162.
+
+<a id="ref-24"></a>[24] D. Liu, K. Lai, G. Ye, M. Chen, and S. Chang, "Sample-Specific Late Fusion for Visual Category Recognition," in *Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)*, 2013, pp. 803–810.
+
+<a id="ref-25"></a>[25] A. Ashwath, M. Peechatt, C. Alm, and R. Bailey, "Early vs. Late Multimodal Fusion for Recognizing Confusion in Collaborative Tasks," in *Proc. 11th Int. Conf. Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)*, 2023, pp. 1–4.
+
+<a id="ref-26"></a>[26] H. Mitchell, *Multi-Sensor Data Fusion*, 1st ed. Berlin: Springer-Verlag, 2010.
+
+<a id="ref-27"></a>[27] M. Tan and Q. V. Le, "EfficientNetV2: Smaller Models and Faster Training," in *Proc. 38th Int. Conf. Machine Learning (ICML)*, Proceedings of Machine Learning Research, vol. 139, 2021, pp. 10096–10106.
+
+<a id="ref-28"></a>[28] S. Woo, S. Debnath, R. Hu, X. Chen, Z. Liu, I. S. Kweon, and S. Xie, "ConvNeXt V2: Co-Designing and Scaling ConvNets with Masked Autoencoders," in *Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition (CVPR)*, 2023, pp. 16133–16142.
+
+<a id="ref-29"></a>[29] M. Oquab, T. Darcet, T. Moutakanni, H. Vo, M. Szafraniec, et al., "DINOv2: Learning Robust Visual Features Without Supervision," *Transactions on Machine Learning Research*, 2024, pp. 1–31.
+
+<a id="ref-30"></a>[30] N.-B. Chang and K. Bai, *Multisensor Data Fusion and Machine Learning for Environmental Remote Sensing*. Boca Raton, FL: CRC Press, 2018.
+
+<a id="ref-31"></a>[31] A. Mi, L. Wang, and J. Qi, "A Multiple Classifier Fusion Algorithm Using Weighted Decision Templates," *Scientific Programming*, vol. 2016, pp. 1–10, 2016.
+
+<a id="ref-32"></a>[32] J. Kittler, M. Hatef, R. P. Duin, and J. Matas, "On Combining Classifiers," *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 20, no. 3, pp. 226–239, 1998.
+
+<a id="ref-33"></a>[33] D. M. J. Tax, R. P. W. Duin, and M. Van Breukelen, "Comparison Between Product and Mean Classifier Combination Rules," in *Proc. Workshop on Statistical Pattern Recognition*, Prague, Czech Republic, 1997.
 
 
 ---
